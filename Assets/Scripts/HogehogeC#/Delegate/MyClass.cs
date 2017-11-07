@@ -1,11 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class MyClass : MonoBehaviour {
-
+public class MyClass : MonoBehaviour
+{
 	public void show()
 	{
-		print("EventCalled");
+		print("called");
 	}
 }

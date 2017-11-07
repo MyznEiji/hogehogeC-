@@ -1,22 +1,22 @@
 ﻿using UnityEngine;
 
-delegate void delegate3();
+delegate void delegate5();
 public class YourDelegate : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
 		YourDelegateSub yds = new YourDelegateSub();
-		delegate3 d3 = new delegate3(yds.show1);
+		delegate5 d5 = new delegate5(yds.show1);
 
-		d3();
+		d5();
 
-		d3 += new delegate3(yds.show2);
-		d3();
+		d5 += new delegate5(yds.show2);
+		d5();
 
-		d3 += new delegate3(yds.show3);
-		d3();
+		d5 += new delegate5(yds.show3);
+		d5();
 
-		d3 -= new delegate3(yds.show2);
-		d3();
+		d5 -= new delegate5(yds.show2);
+		d5();
 	}
 }

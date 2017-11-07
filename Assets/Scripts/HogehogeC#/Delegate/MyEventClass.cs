@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 
-public delegate void Mydelegate2();
-public class MyEventClass : MonoBehaviour {
-	public event Mydelegate2 eventname;
+public delegate void MyDelegate32();
+public class MyEventClass : MonoBehaviour
+{
+	public event MyDelegate32 eventname;
 
 	public void OnEventname()
 	{
