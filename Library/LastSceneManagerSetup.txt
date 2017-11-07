@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/HogehogeC#/Delegate.unity
+  isLoaded: 1
+  isActive: 1
