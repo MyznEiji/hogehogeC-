@@ -9,6 +9,7 @@ public class event01 : MonoBehaviour
 	void Start()
 	{
 		myevent.eventname += new MyDelegate32(mc.show);
+		myevent.eventname += new MyDelegate32(mc.show);
 	}
 	void Update()
 	{
