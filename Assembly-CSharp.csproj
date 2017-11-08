@@ -328,7 +328,6 @@
      <Compile Include="Assets\Scripts\HogehogeC#\Delegate\MyDelegate.cs" />
      <Compile Include="Assets\Scripts\HogehogeC#\Delegate\MyDelegateSub.cs" />
      <Compile Include="Assets\Scripts\HogehogeC#\Delegate\MyEventClass.cs" />
-     <Compile Include="Assets\Scripts\HogehogeC#\Delegate\QiitaProject.cs" />
      <Compile Include="Assets\Scripts\HogehogeC#\Delegate\YourDelegate.cs" />
      <Compile Include="Assets\Scripts\HogehogeC#\Delegate\YourDelegateSub.cs" />
      <Compile Include="Assets\Scripts\HogehogeC#\Delegate\event01.cs" />
@@ -376,6 +375,7 @@
      <Compile Include="Assets\Scripts\Rx 1\UniRx\ObservableReturn.cs" />
      <Compile Include="Assets\Scripts\Rx 1\UniRx\ObservableTimer.cs" />
      <Compile Include="Assets\Scripts\Rx 1\UniRx\ReactiveProperty.cs" />
+     <Compile Include="Assets\Scripts\Rx 1\UniRxQiita\QiitaProject.cs" />
      <Compile Include="Assets\Scripts\Solid\SOLID_DPI\Enemy11.cs" />
      <Compile Include="Assets\Scripts\Solid\SOLID_DPI\Enemy12.cs" />
      <Compile Include="Assets\Scripts\Solid\SOLID_DPI\EnemyManager.cs" />
