@@ -328,6 +328,7 @@
      <Compile Include="Assets\Scripts\HogehogeC#\Delegate\MyDelegate.cs" />
      <Compile Include="Assets\Scripts\HogehogeC#\Delegate\MyDelegateSub.cs" />
      <Compile Include="Assets\Scripts\HogehogeC#\Delegate\MyEventClass.cs" />
+     <Compile Include="Assets\Scripts\HogehogeC#\Delegate\QiitaProject.cs" />
      <Compile Include="Assets\Scripts\HogehogeC#\Delegate\YourDelegate.cs" />
      <Compile Include="Assets\Scripts\HogehogeC#\Delegate\YourDelegateSub.cs" />
      <Compile Include="Assets\Scripts\HogehogeC#\Delegate\event01.cs" />
@@ -337,6 +338,9 @@
      <Compile Include="Assets\Scripts\HogehogeC#\Exception\Test11.cs" />
      <Compile Include="Assets\Scripts\HogehogeC#\Exception\Throw.cs" />
      <Compile Include="Assets\Scripts\HogehogeC#\Exception\TryNest.cs" />
+     <Compile Include="Assets\Scripts\HogehogeC#\Generic\Generic.cs" />
+     <Compile Include="Assets\Scripts\HogehogeC#\Generic\GenericClass.cs" />
+     <Compile Include="Assets\Scripts\HogehogeC#\Generic\GenericDictionary.cs" />
      <Compile Include="Assets\Scripts\HogehogeC#\Interface\ICalcInterface.cs" />
      <Compile Include="Assets\Scripts\HogehogeC#\Interface\IFirst.cs" />
      <Compile Include="Assets\Scripts\HogehogeC#\Interface\ISecond.cs" />
