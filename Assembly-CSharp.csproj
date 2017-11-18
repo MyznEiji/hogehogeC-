@@ -46,6 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Assets\Demigiant\DOTween\Examples\Basics.cs" />
+     <Compile Include="Assets\Assets\Demigiant\DOTween\Examples\Sequences.cs" />
      <Compile Include="Assets\Assets\Plugins\UniRx\Examples\Sample01_ObservableWWW.cs" />
      <Compile Include="Assets\Assets\Plugins\UniRx\Examples\Sample02_ObservableTriggers.cs" />
      <Compile Include="Assets\Assets\Plugins\UniRx\Examples\Sample03_GameObjectAsObservable.cs" />
@@ -289,6 +291,12 @@
      <Compile Include="Assets\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\YieldInstructionCache.cs" />
      <Compile Include="Assets\Assets\Plugins\UniRx\Scripts\UnityWinRTBridge\Thread.cs" />
      <Compile Include="Assets\Assets\Plugins\UniRx\Scripts\UnityWinRTBridge\ThreadPoolScheduler_UnityWinRT.cs" />
+     <Compile Include="Assets\Assets\UnityChan\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Assets\UnityChan\Scripts\FaceUpdate.cs" />
+     <Compile Include="Assets\Assets\UnityChan\Scripts\IdleChanger.cs" />
+     <Compile Include="Assets\Assets\UnityChan\Scripts\SceneLoader.cs" />
+     <Compile Include="Assets\Assets\UnityChan\Scripts\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
      <Compile Include="Assets\Scripts\Coroutine\CoroutineFirst\CoroutineButton.cs" />
      <Compile Include="Assets\Scripts\Coroutine\CoroutineFirst\CoroutineButtonThree.cs" />
      <Compile Include="Assets\Scripts\Coroutine\CoroutineFirst\CoroutineButtonTwo.cs" />
@@ -356,26 +364,26 @@
      <Compile Include="Assets\Scripts\MasterData\CSVPrinter.cs" />
      <Compile Include="Assets\Scripts\MasterData\JSONPrinter.cs" />
      <Compile Include="Assets\Scripts\MasterData\JsonSampleClass.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\Observer\IObserver.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\Observer\ISubject.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\Observer\Model1.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\Observer\Observer1.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\Observer\Observer2.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\Observer\Subject.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\Rx\Model2.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\Rx\NumberObservable.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\Rx\PrintObserver.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\UniRx-First-\ButtonClickNotUniRx.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\UniRx-First-\ButtonClickUniRx.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\UniRx-First-\UniRxFirst.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\UniRx\CoroutineStream.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\UniRx\DoubleClickButton.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\UniRx\Model3.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\UniRx\ObservableCreate.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\UniRx\ObservableReturn.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\UniRx\ObservableTimer.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\UniRx\ReactiveProperty.cs" />
-     <Compile Include="Assets\Scripts\Rx 1\UniRxQiita\QiitaProject.cs" />
+     <Compile Include="Assets\Scripts\Rx\Observer\IObserver.cs" />
+     <Compile Include="Assets\Scripts\Rx\Observer\ISubject.cs" />
+     <Compile Include="Assets\Scripts\Rx\Observer\Model1.cs" />
+     <Compile Include="Assets\Scripts\Rx\Observer\Observer1.cs" />
+     <Compile Include="Assets\Scripts\Rx\Observer\Observer2.cs" />
+     <Compile Include="Assets\Scripts\Rx\Observer\Subject.cs" />
+     <Compile Include="Assets\Scripts\Rx\Rx\Model2.cs" />
+     <Compile Include="Assets\Scripts\Rx\Rx\NumberObservable.cs" />
+     <Compile Include="Assets\Scripts\Rx\Rx\PrintObserver.cs" />
+     <Compile Include="Assets\Scripts\Rx\UniRx-First-\ButtonClickNotUniRx.cs" />
+     <Compile Include="Assets\Scripts\Rx\UniRx-First-\ButtonClickUniRx.cs" />
+     <Compile Include="Assets\Scripts\Rx\UniRx-First-\UniRxFirst.cs" />
+     <Compile Include="Assets\Scripts\Rx\UniRx\CoroutineStream.cs" />
+     <Compile Include="Assets\Scripts\Rx\UniRx\DoubleClickButton.cs" />
+     <Compile Include="Assets\Scripts\Rx\UniRx\Model3.cs" />
+     <Compile Include="Assets\Scripts\Rx\UniRx\ObservableCreate.cs" />
+     <Compile Include="Assets\Scripts\Rx\UniRx\ObservableReturn.cs" />
+     <Compile Include="Assets\Scripts\Rx\UniRx\ObservableTimer.cs" />
+     <Compile Include="Assets\Scripts\Rx\UniRx\ReactiveProperty.cs" />
+     <Compile Include="Assets\Scripts\Rx\UniRxQiita\QiitaProject.cs" />
      <Compile Include="Assets\Scripts\Solid\SOLID_DPI\Enemy11.cs" />
      <Compile Include="Assets\Scripts\Solid\SOLID_DPI\Enemy12.cs" />
      <Compile Include="Assets\Scripts\Solid\SOLID_DPI\EnemyManager.cs" />
@@ -400,7 +408,33 @@
      <Compile Include="Assets\Scripts\Solid\SOLID_SRP\Button3.cs" />
      <Compile Include="Assets\Scripts\Solid\SOLID_SRP\IButton.cs" />
      <Compile Include="Assets\Scripts\Solid\SOLID_SRP\SRPModify.cs" />
+     <Compile Include="Assets\Scripts\Tween\DoTween\DoTweenBasic.cs" />
+     <Compile Include="Assets\Scripts\Tween\DoTween\DoTweenCount.cs" />
+     <Compile Include="Assets\Scripts\Tween\DoTween\DoTweenCustomEasing.cs" />
+     <Compile Include="Assets\Scripts\Tween\DoTween\DoTweenUnityChan.cs" />
+     <Compile Include="Assets\Scripts\Tween\DoTween\LoopPause.cs" />
+     <Compile Include="Assets\Scripts\Tween\ITween\ButtonController.cs" />
+     <Compile Include="Assets\Scripts\Tween\ITween\FlashingUI.cs" />
+     <Compile Include="Assets\Scripts\Tween\ITween\ITweenCube.cs" />
+     <Compile Include="Assets\Scripts\Tween\ITween\SpriteController.cs" />
+     <None Include="Assets\Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
+     <None Include="Assets\Assets\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+     <None Include="Assets\Assets\UnityChan\license.txt" />
+     <None Include="Assets\Assets\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+     <None Include="Assets\Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+     <None Include="Assets\Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+     <None Include="Assets\Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+     <None Include="Assets\Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+     <None Include="Assets\Assets\UnityChan\Stage\Shader\AlphaMask.shader" />
+     <None Include="Assets\Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\Assets\Plugins\UniRx\ReadMe.txt" />
+     <None Include="Assets\Assets\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+     <None Include="Assets\Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+     <None Include="Assets\Assets\Demigiant\DOTween\DOTween50.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity5.6.1f1 .app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -422,6 +456,22 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity5.6.1f1 .app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/miyazonoeiji/projects/Unity-Projects/hogehogeC/Assets/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/miyazonoeiji/projects/Unity-Projects/hogehogeC/Assets/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/miyazonoeiji/projects/Unity-Projects/hogehogeC/Assets/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/miyazonoeiji/projects/Unity-Projects/hogehogeC/Assets/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{1605E605-DA05-6EDC-9ADC-DDF57E79BFCF}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
