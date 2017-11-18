@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/HogehogeC#/Delegate.unity
+- path: Assets/Scenes/Tween/DOTween.unity
   isLoaded: 1
   isActive: 1
